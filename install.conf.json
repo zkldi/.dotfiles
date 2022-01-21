@@ -22,7 +22,9 @@
 			"~/.config/rofi": ".config/rofi",
 			"~/.config/polybar": ".config/polybar",
 			"~/.config/btop": ".config/btop",
-			"~/Wallpapers": "Wallpapers"
+			"~/Wallpapers": "home/Wallpapers",
+			"~/.xinitrc": "home/.xinitrc",
+			"~/.Xmodmap": "home/.Xmpdmap"
 		}
 	},
 	{
