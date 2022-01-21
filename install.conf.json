@@ -21,12 +21,18 @@
 			"~/.config/picom": ".config/picom",
 			"~/.config/rofi": ".config/rofi",
 			"~/.config/polybar": ".config/polybar",
-			"~/.config/btop": ".config/btop"
+			"~/.config/btop": ".config/btop",
+			"~/Wallpapers": "Wallpapers"
 		}
 	},
 	{
 		"create": [
 			"~/Repos"
+		]
+	},
+	{
+		"shell": [
+			"./install-pkglist.sh"
 		]
 	}
 ]
