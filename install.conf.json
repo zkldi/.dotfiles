@@ -1,0 +1,32 @@
+[
+	{
+		"defaults": {
+			"link": {
+				"relink": true,
+				"force": true
+			}
+		}
+	},
+	{
+		"clean": [
+			"~"
+		]
+	},
+	{
+		"link": {
+			"~/.config/fish": ".config/fish",
+			"~/.config/i3": ".config/i3",
+			"~/.config/gtk-3.0": ".config/gtk-3.0",
+			"~/.config/gtk-4.0": ".config/gtk-4.0",
+			"~/.config/picom": ".config/picom",
+			"~/.config/rofi": ".config/rofi",
+			"~/.config/polybar": ".config/polybar",
+			"~/.config/btop": ".config/btop"
+		}
+	},
+	{
+		"create": [
+			"~/Repos"
+		]
+	}
+]
