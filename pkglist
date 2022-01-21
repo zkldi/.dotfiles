@@ -1,10 +1,12 @@
 autoconf
 automake
 base
+betterlockscreen
 binutils
 bison
 btop
 btrfs-progs
+consolas-font
 dmenu
 efibootmgr
 fakeroot
@@ -16,6 +18,7 @@ fish
 fisher
 flameshot
 flex
+fzf
 gawk
 gcc
 gettext
@@ -26,6 +29,7 @@ grep
 groff
 gst-plugin-pipewire
 gzip
+gzrt
 htop
 i3-gaps
 i3blocks
@@ -34,6 +38,7 @@ intel-ucode
 iwd
 kitty
 libpulse
+libsamplerate
 libtool
 lightdm
 lightdm-gtk-greeter
@@ -46,6 +51,7 @@ nano
 nautilus
 neovim
 nodejs
+nordic-theme
 npm
 nvidia
 openssh
@@ -58,19 +64,23 @@ pipewire-jack
 pipewire-media-session
 pipewire-pulse
 pkgconf
+polybar
 python-pip
 rofi
 rustup
 sed
 smartmontools
 sudo
+tauon-music-box
 texinfo
 ttf-dejavu
 ttf-inconsolata
 ttf-linux-libertine
+ttf-ms-fonts
 ttf-ubuntu-font-family
 vi
 vim
+visual-studio-code-bin
 wget
 which
 wireless_tools
@@ -79,4 +89,5 @@ xdg-utils
 xorg-server
 xorg-xinit
 xterm
+yay-bin
 zram-generator
