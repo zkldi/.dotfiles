@@ -7,6 +7,7 @@ bison
 btop
 btrfs-progs
 consolas-font
+discord
 dmenu
 efibootmgr
 fakeroot
@@ -49,7 +50,9 @@ m4
 make
 nano
 nautilus
+neofetch
 neovim
+networkmanager
 nodejs
 nordic-theme
 npm
@@ -68,6 +71,7 @@ polybar
 python-pip
 rofi
 rustup
+scrot
 sed
 smartmontools
 sudo
@@ -87,6 +91,7 @@ wireless_tools
 wpa_supplicant
 xdg-utils
 xorg-server
+xorg-xev
 xorg-xinit
 xterm
 yay-bin
