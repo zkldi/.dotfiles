@@ -1,1 +1,2 @@
-keysym asciitilde = numbersign asciitilde numbersign asciitilde backslash bar
+keycode 51 = numbersign asciitilde numbersign asciitilde backslash bar
+keycode 49 = grave
