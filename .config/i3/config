@@ -11,7 +11,7 @@
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:Mono 14
+font pango:Iosevka Nerd Font 12
 
 # Wallpaper location
 set $wallpaper = ~/Wallpapers
@@ -50,6 +50,7 @@ floating_modifier Mod1
 
 # start a terminal
 bindsym Mod1+Return exec i3-quickterm shell
+bindsym Mod1+Shift+o exec i3-quickterm
 
 # kill focused window
 bindsym Mod1+Shift+q kill
