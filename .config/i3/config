@@ -55,6 +55,10 @@ bindsym Mod1+Shift+o exec i3-quickterm
 # kill focused window
 bindsym Mod1+Shift+q kill
 
+# brightness
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+
 # lock screen
 
 bindsym Mod4+l exec --no-startup-id betterlockscreen -l dim
@@ -75,7 +79,7 @@ bindsym Mod1+d exec "~/.config/rofi/launchers/colorful/launcher.sh"
 bindsym Mod1+Shift+Return exec --no-startup-id firefox-developer-edition
 
 # fast file manager
-bindsym Mod1+Shift+p exec --no-startup-id nautilus
+bindsym Mod1+Shift+p exec --no-startup-id thunar
 
 # change focus
 bindsym Mod1+$left focus left
@@ -205,8 +209,6 @@ exec_always --no-startup-id bash ~/.config/polybar/launch.sh --hack
 hide_edge_borders both
 
 for_window [class=".*"] border pixel 0
-
-gaps outer 10
 
 exec_always --no-startup-id feh --bg-scale --randomize $wallpaper
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
