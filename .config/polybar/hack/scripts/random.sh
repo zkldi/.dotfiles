@@ -7,12 +7,12 @@ RFILE="$HOME/.config/polybar/hack/scripts/rofi/colors.rasi"
 # Change colors
 change_color() {
 	# polybar
-	sed -i -e "s/background = #.*/background = $BG/g" $PFILE
-	sed -i -e "s/foreground = #.*/foreground = $FG/g" $PFILE
-	sed -i -e "s/primary = #.*/primary = $AC/g" $PFILE
+	sed -i -e "s/background = #.*/background = $BG/g" "$PFILE"
+	sed -i -e "s/foreground = #.*/foreground = $FG/g" "$PFILE"
+	sed -i -e "s/primary = #.*/primary = $AC/g" "$PFILE"
 	
 	# rofi
-	cat > $RFILE <<- EOF
+	cat > "$RFILE" <<- EOF
 	/* colors */
 
 	* {
@@ -61,9 +61,9 @@ get_random_color() {
 
 hex_to_rgb() {
     # Convert a hex value WITHOUT the hashtag (#)
-    R=$(printf "%d" 0x${1:0:2})
-    G=$(printf "%d" 0x${1:2:2})
-    B=$(printf "%d" 0x${1:4:2})
+    R=$(printf "%d" 0x"${1:0:2}")
+    G=$(printf "%d" 0x"${1:2:2}")
+    B=$(printf "%d" 0x"${1:4:2}")
 }
 
 get_fg_color(){
@@ -79,7 +79,7 @@ get_fg_color(){
 # Main
 BG='#1f1f1f'	# change to light bg
 FG='#FFFFFF'	# change to dark fg
-AC=`get_random_color`
+AC=$(get_random_color)
 
 #BG=`get_random_color`
 #HEX=${BG:1}
