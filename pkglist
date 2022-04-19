@@ -68,6 +68,8 @@ pipewire-media-session
 pipewire-pulse
 pkgconf
 polybar
+python
+python-i3-quickterm
 python-pip
 rofi
 rustup
@@ -77,6 +79,7 @@ smartmontools
 sudo
 tauon-music-box
 texinfo
+thunar
 ttf-dejavu
 ttf-inconsolata
 ttf-linux-libertine

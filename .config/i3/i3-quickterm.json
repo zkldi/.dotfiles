@@ -5,6 +5,6 @@
 	"ratio": 0.33,
 	"pos": "top",
 	"shells": {
-		"shell": "{$SHELL}"
+		"shell": "fish"
 	}
 }
