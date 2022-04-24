@@ -24,7 +24,8 @@
 			"~/.config/btop": ".config/btop",
 			"~/Wallpapers": "home/Wallpapers",
 			"~/.xinitrc": "home/.xinitrc",
-			"~/.Xmodmap": "home/.Xmodmap"
+			"~/.Xmodmap": "home/.Xmodmap",
+			"~/.local/share/fonts": ".local/share/fonts"
 		}
 	},
 	{

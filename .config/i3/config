@@ -50,7 +50,7 @@ set $right semicolon
 floating_modifier Mod1
 
 # start a terminal
-bindsym Mod1+Return exec i3-quickterm shell
+bindsym Mod1+Return exec --no-startup-id i3-quickterm shell
 bindsym Mod1+Shift+c exec kitty
 
 # kill focused window
