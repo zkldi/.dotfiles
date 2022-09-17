@@ -107,3 +107,13 @@ alias zi=__zoxide_zi
 # ~/.config/fish/config.fish):
 #
 # zoxide init fish | source
+
+# pnpm
+set -gx PNPM_HOME "/home/zlaro/.local/share/pnpm"
+set -gx PATH "$PNPM_HOME" $PATH
+# pnpm end
+
+set -x EDITOR nvim
+set -x VISUAL nvim
+fish_add_path '/var/lib/flatpak/exports/share'
+fish_add_path '/home/zlaro/.local/share/flatpak/exports/share'
